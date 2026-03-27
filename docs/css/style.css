@@ -170,12 +170,8 @@ h1, h2, h3, h4 {
   text-align: center;
   padding: 3rem 1.5rem;
 
-  /* Fallback gradient until hero.png is generated */
-  background: linear-gradient(135deg, #3b1f0a 0%, #7a3d10 50%, #3b1f0a 100%);
-
-  /* Once hero.png is ready, replace above with: */
-  /* background: linear-gradient(rgba(30,10,0,0.5), rgba(30,10,0,0.5)),
-               url('../images/hero.png') center / cover no-repeat; */
+  background: linear-gradient(rgba(30,10,0,0.45), rgba(30,10,0,0.45)),
+              url('../images/hero.png') center / cover no-repeat;
 }
 
 .hero-content h1 {
