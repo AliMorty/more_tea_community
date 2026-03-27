@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connect - More Tea Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">
+        <img src="images/logo.png" alt="More Tea Community Logo" class="nav-logo">
+        <span class="nav-title">More Tea Community</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="connect.html" class="active">Connect</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="archive.html">Archive</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <h1>Connect</h1>
+    <p>Get in touch, join the community, or follow along.</p>
+  </div>
+
+  <!-- CONNECT GRID -->
+  <div class="page-container full-width">
+    <div class="connect-grid">
+
+      <!-- JOIN GOOGLE GROUP -->
+      <div class="connect-card">
+        <h2>Join the Google Group</h2>
+        <p>
+          Our Google Group mailing list is the best way to stay up to date.
+          You will receive weekly announcements, location reminders, and any
+          last-minute changes.
+        </p>
+        <form class="connect-form" action="#" method="get">
+          <label for="cname">Name</label>
+          <input type="text" id="cname" name="name" placeholder="Your name" autocomplete="name">
+          <label for="cemail">Email</label>
+          <input type="email" id="cemail" name="email" placeholder="Your email" autocomplete="email">
+          <button type="submit" class="btn btn-primary">Join Our Community</button>
+        </form>
+      </div>
+
+      <!-- SOCIAL & CONTACT -->
+      <div class="connect-card">
+        <h2>Follow &amp; Contact</h2>
+        <p>
+          Follow us on Instagram for photos from our gatherings and
+          community updates.
+        </p>
+        <div class="social-links">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" class="btn btn-instagram">
+            Follow Us on Instagram
+          </a>
+        </div>
+
+        <br>
+        <h2>Send a Message</h2>
+        <p>Have a question or want to get involved? Send us a note.</p>
+        <form class="connect-form" action="#" method="get">
+          <label for="msg-name">Name</label>
+          <input type="text" id="msg-name" name="msg_name" placeholder="Your name" autocomplete="name">
+          <label for="msg-email">Email</label>
+          <input type="email" id="msg-email" name="msg_email" placeholder="Your email" autocomplete="email">
+          <label for="msg-body">Message</label>
+          <textarea id="msg-body" name="message" placeholder="Your message..."></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <a href="https://www.uvic.ca/ecs/" target="_blank" rel="noopener">UVIC ECS</a>
+      <a href="connect.html">Contact Us</a>
+      <a href="#">Privacy Policy</a>
+      <span>&copy; 2024 More Tea Community</span>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
