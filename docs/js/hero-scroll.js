@@ -8,6 +8,13 @@
     if (dismissed) return;
     dismissed = true;
     hero.classList.add('hero-exit');
+
+    // After animation, scroll to top so there's no white gap at the bottom
+    hero.addEventListener('transitionend', function onEnd(e) {
+      if (e.propertyName !== 'margin-top') return;
+      hero.removeEventListener('transitionend', onEnd);
+      window.scrollTo(0, 0);
+    });
   }
 
   // Trigger on any downward scroll
