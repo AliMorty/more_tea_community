@@ -784,8 +784,8 @@ footer {
 }
 
 .footer-bottom-logo {
-  width: 140px;
-  height: 140px;
+  width: min(140px, 25vw);
+  height: min(140px, 25vw);
   border-radius: 50%;
   object-fit: cover;
   margin: 0.75rem auto 0;
