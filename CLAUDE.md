@@ -23,6 +23,12 @@ At the end of every session, Claude must write a summary file in `agentic_sessio
 1. **High-level summary** — plain English, what was accomplished, what decisions were made. Written so the user can quickly understand what happened without reading code.
 2. **Technical details** — specific files created or modified, CSS classes added, JS functions changed, folder structure changes, etc.
 
+## Committing & Pushing
+
+- After completing a change, ask the user: "Happy with this? Should I commit?"
+- Only commit and push once the user confirms they are happy with the result.
+- Do not batch multiple unverified changes into one commit — each verified change gets its own commit.
+
 ## Rules
 
 - Keep everything simple: plain HTML, CSS, and vanilla JavaScript only.
