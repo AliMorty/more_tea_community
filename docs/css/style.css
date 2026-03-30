@@ -215,7 +215,7 @@ h1, h2, h3, h4 {
    CALENDAR + JOIN SECTION (floral background)
    ============================================= */
 .cal-join-section {
-  background-image: url('../images/background.png');
+  background-image: url('../images/background.webp');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
