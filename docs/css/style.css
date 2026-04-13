@@ -201,6 +201,10 @@ h1, h2, h3, h4 {
               opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.hero.no-transition {
+  transition: none !important;
+}
+
 .hero.hero-exit {
   margin-top: calc(-100vh + var(--nav-height));
   opacity: 0;

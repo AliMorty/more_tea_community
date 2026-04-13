@@ -2,8 +2,15 @@
   var hero = document.querySelector('.hero');
   if (!hero) return;
 
-  var dismissed = false;
+  var dismissed = true;
   var animating = false;
+
+  // Start with hero hidden (no animation on load)
+  hero.classList.add('no-transition');
+  hero.classList.add('hero-exit');
+  // Force reflow, then re-enable transitions
+  hero.offsetHeight;
+  hero.classList.remove('no-transition');
 
   function dismissHero() {
     if (dismissed || animating) return;
