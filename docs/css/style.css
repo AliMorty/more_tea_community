@@ -755,6 +755,7 @@ footer {
 }
 
 .footer-tagline {
+  font-family: 'Calisto MT', 'Bookman Old Style', Garamond, serif;
   font-size: 0.8rem;
   color: rgba(255,255,255,0.45);
   line-height: 1.5;
@@ -866,17 +867,17 @@ footer {
 }
 
 .about-body h2 {
-  font-family: var(--font-display);
+  font-family: 'Calisto MT', 'Bookman Old Style', Garamond, serif;
   font-size: 1.8rem;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 700;
+  font-style: normal;
   margin-bottom: 1.25rem;
 }
 
 .about-body p {
-  font-family: var(--font-display);
+  font-family: 'Calisto MT', 'Bookman Old Style', Garamond, serif;
   font-size: 1.15rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--brown-dark);
   margin-bottom: 1rem;
   line-height: 2;
