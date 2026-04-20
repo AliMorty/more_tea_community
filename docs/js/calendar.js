@@ -50,7 +50,7 @@ const EVENTS = [
     title: 'More Tea Wednesday',
     location: 'ECS 668',
     time: '12:00 PM - 2:00 PM',
-    description: 'All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
+    description: 'This week we have strawberries, goat cheese and bread crisps as well as caffeinated and decaf tea. All students, faculty, and researchers welcome. ECS 668, UVic.'
   },
   {
     date: '2026-04-22',
@@ -62,6 +62,34 @@ const EVENTS = [
   {
     date: '2026-04-29',
     title: 'More Tea Wednesday',
+    location: 'ECS 668',
+    time: '12:00 PM - 2:00 PM',
+    description: 'All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
+  },
+  {
+    date: '2026-05-05',
+    title: 'More Tea Tuesday',
+    location: 'ECS 668',
+    time: '12:00 PM - 2:00 PM',
+    description: "We've moved our gatherings to Tuesdays for this summer (at least the month of May) due to TA duties this semester for Ali More Tea. All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!"
+  },
+  {
+    date: '2026-05-12',
+    title: 'More Tea Tuesday',
+    location: 'ECS 668',
+    time: '12:00 PM - 2:00 PM',
+    description: 'All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
+  },
+  {
+    date: '2026-05-19',
+    title: 'More Tea Tuesday',
+    location: 'ECS 668',
+    time: '12:00 PM - 2:00 PM',
+    description: 'All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
+  },
+  {
+    date: '2026-05-26',
+    title: 'More Tea Tuesday',
     location: 'ECS 668',
     time: '12:00 PM - 2:00 PM',
     description: 'All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
