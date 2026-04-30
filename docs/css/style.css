@@ -981,6 +981,12 @@ footer {
   }
 
   /* Cal+Join section */
+  .cal-join-section {
+    background-image: url('../images/background_mobile.png');
+    background-position: top left;
+    background-size: 150% auto;
+  }
+
   .cal-join-inner {
     grid-template-columns: 1fr;
   }
