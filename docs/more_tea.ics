@@ -122,9 +122,9 @@ END:VEVENT
 BEGIN:VEVENT
 UID:more-tea-20260526@more_tea_community
 DTSTART;TZID=America/Vancouver:20260526T120000
-DTEND;TZID=America/Vancouver:20260526T140000
+DTEND;TZID=America/Vancouver:20260526T131500
 SUMMARY:More Tea Tuesday
-DESCRIPTION:All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!
+DESCRIPTION:This week\, the event starts at 12pm but ends at 1:15pm\, to accommodate those who want to join Lunch 'n Learn Seminars which is happening from 1:30 to 2:30pm at ECS 660. All students\, faculty\, and researchers welcome. Caffeinated and Decaf tea provided!
 LOCATION:ECS 668, University of Victoria, Victoria, BC
 END:VEVENT
 END:VCALENDAR

@@ -91,8 +91,8 @@ const EVENTS = [
     date: '2026-05-26',
     title: 'More Tea Tuesday',
     location: 'ECS 668',
-    time: '12:00 PM - 2:00 PM',
-    description: 'All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
+    time: '12:00 PM - 1:15 PM',
+    description: 'This week, the event starts at 12pm but ends at 1:15pm, to accommodate those who want to join Lunch \'n Learn Seminars which is happening from 1:30 to 2:30pm at ECS 660. All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
   }
 ];
 
