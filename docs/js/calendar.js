@@ -4,6 +4,13 @@
 // =============================================
 const EVENTS = [
   {
+    date: '2026-02-25',
+    title: 'More Tea Wednesday',
+    location: 'ECS 668',
+    time: '12:00 PM - 2:00 PM',
+    description: 'We, a group of grad students, decided to start a weekly tea event on Wednesdays from 12pm to 2pm in ECS 668. The idea is to have a place where people can gather. I decided to take the initiative and now I want to invite you to the first of these events, which happens this week, February 25, 2026.\n\nI will provide tea and cups!\n\nIf you are a Grad Student, Staff, or Faculty, or a researcher, or inspired to do research someday, you are very welcome to come by.'
+  },
+  {
     date: '2026-03-04',
     title: 'More Tea Wednesday',
     location: 'ECS 668',
@@ -71,7 +78,7 @@ const EVENTS = [
     title: 'More Tea Tuesday',
     location: 'ECS 668',
     time: '12:00 PM - 2:00 PM',
-    description: "We've moved our gatherings to Tuesdays for this summer (at least the month of May) due to TA duties this semester for Ali More Tea. All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!"
+    description: "We've moved our gatherings to Tuesdays for this summer (at least the month of May) due to TA duties this semester for Ali More Tea."
   },
   {
     date: '2026-05-12',
@@ -92,7 +99,7 @@ const EVENTS = [
     title: 'More Tea Tuesday',
     location: 'ECS 668',
     time: '12:00 PM - 1:15 PM',
-    description: 'This week, the event starts at 12pm but ends at 1:15pm, to accommodate those who want to join Lunch \'n Learn Seminars which is happening from 1:30 to 2:30pm at ECS 660. All students, faculty, and researchers welcome. Caffeinated and Decaf tea provided!'
+    description: 'This week, the event starts at 12pm but ends at 1:15pm, to accommodate those who want to join Lunch \'n Learn Seminars which is happening from 1:30 to 2:30pm at ECS 660.'
   }
 ];
 
